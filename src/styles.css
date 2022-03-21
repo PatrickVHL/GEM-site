@@ -1,4 +1,81 @@
-.App {
-  font-family: sans-serif;
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+.card {
+  border: 1px solid #629daa !important;
+  border-radius: 0% !important;
+}
+
+.card-header {
+  background-color: #fff;
+  border: none;
+  border-radius: 0% !important;
+}
+
+.card-header.bg-primary {
+  background-color: #fff !important;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-body h1 {
+  padding: 1rem 0;
+}
+
+.card .btn-lg {
+  border-radius: 0% !important;
+}
+
+.accordion-item {
+  border: none;
+}
+
+.btn-primary {
+  background-color: #629daa;
+  border-color: #629daa;
+}
+
+.btn-primary:hover {
+  background-color: hsla(191, 30%, 53%, 0.3);
+  border-color: hsla(191, 30%, 53%, 0.3);
+  color: black;
+}
+
+.btn-primary-soft {
+  background-color: hsla(191, 30%, 53%, 0.3);
+}
+
+.btn-outline-primary {
+  border: none;
+  color: #629daa;
+  border-color: #629daa;
+}
+
+.btn-primary-soft:hover {
+  color: #fff;
+  background-color: #629daa;
+  border-color: #629daa;
+}
+
+thead th:first-child {
+  text-align: left;
+}
+
+.table-footer {
+  font-size: 14px;
+}
+
+.table-footer ol {
+  margin-left: -10px;
+}
+
+#copyright {
   text-align: center;
 }
